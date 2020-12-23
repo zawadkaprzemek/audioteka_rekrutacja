@@ -14,7 +14,7 @@ Używanie:
 Adres http://localhost:8000
 Autentykacja Bearer Token
 W nagłówkach dodać nagłówek
-Authorization : Bearer <token>
+Authorization : Bearer "token wygenerowany przy tworzeniu konta użytkownika"
 
 Końcówki API:
 1. /api/product/add - Metoda POST - dodawanie produktów - w body wysłać jsona z wartościami name i price
