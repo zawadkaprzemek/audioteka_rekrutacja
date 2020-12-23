@@ -12,6 +12,10 @@ Instalacja
 
 Używanie:
 Adres http://localhost:8000
+Autentykacja Bearer Token
+W nagłówkach dodać nagłówek
+Authorization : Bearer <token>
+
 Końcówki API:
 1. /api/product/add - Metoda POST - dodawanie produktów - w body wysłać jsona z wartościami name i price
 2. /api/product/{id_produktu}/remove - Metoda DELETE - usuwanie produktów - puste body
